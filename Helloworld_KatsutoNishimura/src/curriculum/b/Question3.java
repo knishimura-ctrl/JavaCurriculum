@@ -1,6 +1,7 @@
 
 package curriculum.b;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Question3 {
@@ -85,6 +86,36 @@ public class Question3 {
 					System.out.printf("%02d * %02d = %02d ||" , i,j,i*j);
 				System.out.println();
 			}
+		//Q12
+			scanner = new Scanner(System.in);
+			Random random = new Random();
+			
+			System.out.println("パソコン、冷蔵庫、扇風機、洗濯機、加湿器、テレビ、ディスプレイ");
+			String input = scanner.nextLine();
+			String [] products = input.split("、");
+			
+			int tv = random.nextInt(12);
+			int display = 11 - tv ;
+			for (String product : products) {
+				String item = product.trim();
+				
+				switch(item) {
+				case "パソコン":
+				case "冷蔵庫":
+				case "扇風機":
+				case "加湿器":
+					System.out.println(item + "残り台数は" + random.nextInt(12) + "台です");
+					break;
+				case "テレビ":
+				case "ディスプレイ":
+					System.out.println(item + "残り台数は" +(item.equals("テレビ") ? tv : display) + "台です");
+					break;
+					default:
+						System.out.println("『 " + item + " 』は指定の商品ではありません");
+						break;
+				}
+			}
+			
 	}
 	    
 	
