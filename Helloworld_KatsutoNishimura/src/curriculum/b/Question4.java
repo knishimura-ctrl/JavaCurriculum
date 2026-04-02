@@ -134,12 +134,9 @@ public class Question4 {
 			for ( int j = 0; j < arrayss[i].length ; j++) {
 				for (int k = 0; k < arrayss[i][j].length ; k++){
 					System.out.println(arrayss[i][j][k]);
-				}
-					
+				}					
 				}
 			}
 		// TODO 自動生成されたメソッド・スタブ
-
 	}
-
 	}
