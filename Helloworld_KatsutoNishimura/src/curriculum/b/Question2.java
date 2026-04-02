@@ -8,9 +8,14 @@ public class Question2 {
 	public static void main(String[] args) {
 		
 		//Q1
-		int score = 75;
-		if (score <= 60);
-		System.out.println("合格です");
+		int score = 0;
+		
+		if (score <= 60) {
+		System.out.println("合格です！");
+		}else System.out.println();
+		
+		score = 70;
+		System.out.println(score);
 		
 		//Q2
 		int age = 25;
@@ -45,8 +50,7 @@ public class Question2 {
 		
 		//Q5
 		Scanner scanner = new Scanner (System.in);
-		int num = scanner.nextInt();
-		
+		int num =Integer.parseInt(scanner.nextLine());	
 		if (num > 0) {
 			System.out.println("正の数です");
 		}else if (num == 0) {
@@ -55,8 +59,7 @@ public class Question2 {
 		
 		
 		//Q6
-		scanner = new Scanner (System.in);
-		int value = scanner.nextInt();
+		int value =Integer.parseInt(scanner.nextLine());
 		
 		if (value % 2 == 0) {
 			System.out.println("偶数です");
@@ -64,9 +67,7 @@ public class Question2 {
 			System.out.println("奇数です");
 		
 		//Q7
-		scanner = new Scanner (System.in);
-		score = scanner.nextInt();
-		
+		score = Integer.parseInt(scanner.nextLine());
 		if (score >= 90) {
 			System.out.println("優");
 		}else if (score >= 70) {
@@ -77,9 +78,7 @@ public class Question2 {
 				System.out.println("不可");
 			}
 		
-		//Q8
-		scanner = new Scanner (System.in);
-		
+		//Q8		
 		String input = scanner.nextLine();		
 		if (input == null || input.isEmpty()) {
 			System.out.println("入力が無効です");
@@ -120,19 +119,28 @@ public class Question2 {
 		case 2:
 		case 12:
 			System.out.println("冬");
+			break;
 		case 3:
 		case 4:
 		case 5:
 			System.out.println("春");
+			break;
 		case 6:
 		case 7:
 		case 8:
 			System.out.println("夏");
+			break;
 		case 9:
 		case 10:
 		case 11:
 			System.out.println("秋");
+			break;
+		default:
+			System.out.println("無効な月です");
 		}
+		
+		
+			
 		
 		
 		// TODO 自動生成されたメソッド・スタブ
