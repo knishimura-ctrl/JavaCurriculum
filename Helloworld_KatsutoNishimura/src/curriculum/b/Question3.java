@@ -66,6 +66,7 @@ public class Question3 {
 	     
 		 //Q9
 		 i = 0;
+		 sum = 0;
 		 sum += i;
 		 while (i <= 100) {
 			 i++;
@@ -102,6 +103,7 @@ public class Question3 {
 				switch(item) {
 				case "パソコン":
 				case "冷蔵庫":
+				case "洗濯機":
 				case "扇風機":
 				case "加湿器":
 					System.out.println(item + "残り台数は" + random.nextInt(12) + "台です");
