@@ -11,7 +11,7 @@ public class Question1 {
 		float floatNum = 0;
 		double doubleNum = 0;
 		char letter = '0';
-		String letters = "";
+		String letters = null;
 		boolean isBoolean = false;
 		
 		//Q2
@@ -26,10 +26,12 @@ public class Question1 {
 		isBoolean = true;
 		
 		//Q3
+		
 		System.out.println(longNum + intNum + shortNum + byteNum);
 		System.out.println(byteNum * 2);
 		System.out.println(letter + letters + isBoolean);
-		System.out.println(byteNum + shortNum + intNum + longNum + floatNum + doubleNum);
+		int sumNum = (int) (byteNum + shortNum + intNum + longNum + floatNum + doubleNum);
+		System.out.println(sumNum);
 		System.out.println(byteNum * shortNum * intNum * longNum);
 		System.out.println(doubleNum / shortNum);
 		System.out.println(byteNum - shortNum);
@@ -66,7 +68,7 @@ public class Question1 {
 		//Q10
 		int num = 50;
 		String  str = String.valueOf(num);
-		System.out.println("得点：" + num + "点");
+		System.out.println("得点：" + str + "点");
 		
 		//Q11
 		int a = 10;
@@ -76,16 +78,13 @@ public class Question1 {
 		
 		//Q12
 		int x = 15;
-		if(x >10) {
-			System.out.println("OK");
-		}else {
-			System.out.println("NG");
-		}
+		String results = (x > 15) ? "OK" :"NG" ;
+		
 		
 		//Q13
 		String text = "私Javaが好きです。Java楽しい！";
-		text = "私はPythonが好きです。Python楽しい！";
-		System.out.println(text);
+		String resultss = text.replace ("Java","Python");
+		System.out.println(resultss);
 		
 		
 		
