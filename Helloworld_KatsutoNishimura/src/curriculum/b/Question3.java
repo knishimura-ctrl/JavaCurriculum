@@ -65,11 +65,12 @@ public class Question3 {
 		 }
 	     
 		 //Q9
-		 i = 0;
+		 i = 1;
 		 sum = 0;
 		 while (i <= 100) {
-			 i++;
 			 sum += i;
+			 i++;
+			 
 		 }
 		 System.out.println(sum);
 		 

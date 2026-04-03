@@ -8,13 +8,12 @@ public class Question2 {
 	public static void main(String[] args) {
 		
 		//Q1
-		int score = 0;
+		int score = 70;
 		
 		if (score >= 60) {
 		System.out.println("合格です！");
 		}
 		
-		score = 70;
 		System.out.println(score);
 		
 		//Q2
