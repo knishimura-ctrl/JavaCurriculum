@@ -30,19 +30,19 @@ public class Question4 {
 		
 		//Q4
 		int[] hairetu = {12,7, 9, 21, 5, 18};
-		int Max = hairetu[0];
-		int Min = hairetu[0];
+		int max = hairetu[0];
+		int min = hairetu[0];
 		for (int ma : hairetu) {
-			if(ma > Max) {
-				Max = ma;
+			if(ma > max) {
+				max = ma;
 			}
-			if(ma < Min) {
-				Min = ma;
+			if(ma < min) {
+				min = ma;
 			}
 			
 		}
-		System.out.println(Max);
-		System.out.println(Min);
+		System.out.println(max);
+		System.out.println(min);
 		
 		//Q5
 		int [] nibai = {1, 2, 3, 4, 5};
@@ -106,20 +106,20 @@ public class Question4 {
 				 {6, 19, 25},
 				 {30, 2, 10}
 		 };
-		 Max = arrays[0][0];
-		 Min = arrays[0][0];
+		 max = arrays[0][0];
+		 min = arrays[0][0];
 		 for ( int i = 0; i < arrays.length; i++) {
 				for ( int j = 0; j < arrays[i].length ; j++) {
-					if(arrays[i][j] > Max) {
-						Max = arrays[i][j];
+					if(arrays[i][j] > max) {
+						max = arrays[i][j];
 					}
-					if(arrays[i][j] < Min) {
-						Min = arrays[i][j];
+					if(arrays[i][j] < min) {
+						min = arrays[i][j];
 					}
 				}
 		 }
-				System.out.println(Max);
-				System.out.println(Min);
+				System.out.println(max);
+				System.out.println(min);
 		 
 		//Q10
 		int [][][]arrayss = {
@@ -137,6 +137,7 @@ public class Question4 {
 				}					
 				}
 			}
+		scanner.close();
 		// TODO 自動生成されたメソッド・スタブ
 	}
 	}
