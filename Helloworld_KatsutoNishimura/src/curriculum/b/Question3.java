@@ -67,15 +67,15 @@ public class Question3 {
 		 //Q9
 		 i = 0;
 		 sum = 0;
-		 sum += i;
 		 while (i <= 100) {
 			 i++;
+			 sum += i;
 		 }
 		 System.out.println(sum);
 		 
 		 //Q10
 		 Scanner scanner = new Scanner(System.in);
-			i = scanner.nextInt();
+			i = Integer.parseInt(scanner.nextLine());	
 			while (i == 0) {
 				System.out.println("終了しました");
 			break;
