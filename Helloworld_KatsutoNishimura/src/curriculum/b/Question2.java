@@ -10,9 +10,9 @@ public class Question2 {
 		//Q1
 		int score = 0;
 		
-		if (score <= 60) {
+		if (score >= 60) {
 		System.out.println("合格です！");
-		}else System.out.println();
+		}
 		
 		score = 70;
 		System.out.println(score);
