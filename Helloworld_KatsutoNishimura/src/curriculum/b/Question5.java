@@ -18,15 +18,15 @@ public class Question5 {
 		Greeting.sayHello();
 		
 		//Q5
-		Animal a = new Animal();
+		Animal animal = new Animal();
 
-        a.setName("ライオン");
-        a.setLength(2.1);
-        a.setSpeed(80);
+        animal.setName("ライオン");
+        animal.setLength(2.1);
+        animal.setSpeed(80);
 
-        System.out.println("動物名：" + a.getName());
-        System.out.println("体長：" + a.getLength() + "m");
-        System.out.println("速度：" + a.getSpeed() + "km/h");
+        System.out.println("動物名：" + animal.getName());
+        System.out.println("体長：" + animal.getLength() + "m");
+        System.out.println("速度：" + animal.getSpeed() + "km/h");
 		}
 	
 			
