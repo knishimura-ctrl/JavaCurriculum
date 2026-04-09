@@ -6,15 +6,7 @@ public class Employee {
 	public void work(){
 		System.out.println( name + "は働いています");
 	}
-}
 
-class Main{
-	public static void main(String[] args) {
-		Employee p = new Employee();
-		
-		p.name = "山田太郎";
-		p.work();
-	}
 }
 
 
