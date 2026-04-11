@@ -1,0 +1,18 @@
+=== Battle Start ===
+来栖 HP:70 AT:65 SP:96
+Daemon HP:85 AT:12 SP:6
+
+先攻: 来栖
+
+---- Turn 1 ----
+来栖 の攻撃 → Daemon に 65 ダメージ
+Daemon の残りHP: 20
+Daemon の攻撃 → 来栖 に 12 ダメージ
+来栖 の残りHP: 58
+
+---- Turn 2 ----
+来栖 の攻撃 → Daemon に 65 ダメージ
+Daemon の残りHP: -45
+
+=== Battle Result ===
+来栖 の勝利!
