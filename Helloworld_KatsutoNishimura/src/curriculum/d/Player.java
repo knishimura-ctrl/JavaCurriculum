@@ -6,8 +6,8 @@ public class Player extends Character {
 		super(name, random(), random(), random());
 	}
 	
+	private static final Random r = new Random();
 	private static int random() {
-		Random r = new Random();
 		return r.nextInt(91) + 10;
 		
 	
